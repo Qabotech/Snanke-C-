@@ -12,7 +12,7 @@
 #define Sprint 15
 using namespace std;
 bool GO;
-const int W = 40;
+const int W = 35;
 const int H = 20;
 int x, y, FOODX, FOODY, score;
 int TX[100], TY[100];
@@ -33,7 +33,7 @@ ED dir;
 
 void border()
 {
-    for (int i = 0; i < W + 2; i++)
+    for (int i = 0; i < W + 2 ; i++)
         cout << "#";
     cout << endl;
 }
